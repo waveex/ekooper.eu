@@ -2,9 +2,6 @@
 
 html {
     scroll-behavior: smooth;
-    max-width: 1920px;
-    width: 100%;
-    margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
 }
 body {
@@ -83,4 +80,22 @@ box-shadow: 0px 0px 17px 3px rgba(66, 68, 90, 1);
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
+}
+@media (max-width: 768px) {
+    .logo{
+        max-width: 200x;
+
+    }
+    .content{
+        max-width: 440px;
+    }
+}
+@media (max-width: 450px) {
+    .logo{
+        max-width: 150px;
+
+    }
+    .content{
+        max-width: 270px;
+    }
 }
