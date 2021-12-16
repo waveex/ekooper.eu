@@ -1,0 +1,13 @@
+{ "name": "ekooper",
+  "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "author": "Michał <michal.jablonski097@gmail.com>",
+
+  "scripts": {
+    "start": "parcel *.html",
+    "build": "parcel build *.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
